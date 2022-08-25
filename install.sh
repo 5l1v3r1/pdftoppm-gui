@@ -1,7 +1,4 @@
 #!/bin/bash
-echo "Installing dependencies"
-sudo apt install poppler-utils -y
-
 echo "Verifying directories"
 mkdir -p ~/.local/bin
 mkdir -p ~/.local/share/applications/
@@ -14,8 +11,5 @@ curl -o ~/.local/share/applications/pdftoppm-gui.desktop "https://raw.githubuser
 
 echo "Updating permissions for executable"
 chmod +x ~/.local/bin/pdftoppm_gui
-
-echo "Updating icon cache"
-gtk-update-icon-cache
 
 echo "Installation is complete"
