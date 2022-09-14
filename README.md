@@ -9,8 +9,8 @@ These are the manual install instructions. If you wish to quickly install, use t
 2. Clone repo: ```git clone "https://github.com/Apacelus/pdftoppm-gui.git" && cd pdftoppm-gui```
 3. Install Nuitka: ```pip install Nuitka```
 4. Compile binary: ```python3 -m nuitka main.py```
-5. Place compiled binary in ```~/.local/bin/```
-6. Make binary executable: ```chmod +x ~/local/bin/<binary-name>```
+5. Place compiled binary in ```~/.local/bin/pdftoppm_gui```
+6. Make binary executable: ```chmod +x ~/local/bin/pdftoppm_gui```
 7. Place pdftoppm-gui.desktop in ```~/.local/share/applications/```
 8. Place icon in ```~/.local/share/icons/hicolor/512x512/apps/```
 ## Credit:
