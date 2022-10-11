@@ -1,0 +1,4 @@
+#!/bin/bash
+# Made by Apacelus
+# MOVES ALL FILES IN THE CURRENT FOLDER TO TRASH!!!
+trash-put ./*
