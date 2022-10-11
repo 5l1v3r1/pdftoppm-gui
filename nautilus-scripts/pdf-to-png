@@ -1,0 +1,6 @@
+#!/bin/bash
+# Made by Apacelus
+# Converts selected pdfs to pngs and deletes the original pdfs
+
+echo -e "$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS" | xargs -i pdftoppm "{}" "{}" -png
+echo -e "$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS" | xargs -i trash-put "{}"
